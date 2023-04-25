@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro Cliente</title>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="modal" id="modal">
+       <div class="headermodal">
+            <h1>Cadastro Cliente</h1>
+            <span onclick="off()">X</span>
+       </div>
+       <div class="mainmodal">
+            <input type="text" name="" id="nomecliente" placeholder=" Nome do Cliente">
+            <input type="text" name="" id="emailcliente"  placeholder=" e-mail do Cliente"><br>
+            <input type="text" name="" id="celularcliente"  placeholder=" Celular do Cliente">
+            <input type="text" name="" id="cidadecliente"  placeholder=" Cidade do Cliente"><br><br>
+            <button id="save" onclick="cadastro()">Salvar</button>
+            <button id="cancel" onclick="off()">Cancelar</button>
+       </div>
+
+
+    </div>
+
+    <div class="mainbody">
+        <header>
+            <h1>Cadastro Clientes</h1>
+        </header>
+        <main>
+            <div class="container">
+                <button id="cadastro" onclick="on()">Cadastrar Cliente</button>
+                <div class="tablediv">
+                    <table id="table">
+                        <thead>
+                            <th>Nome</th>
+                            <th>E-mail</th>
+                            <th>Celular</th>
+                            <th>Cidade</th>
+                            <th>Ação</th>
+                            <th></th>
+                        </thead>
+                    </table>
+                </div>
+            </div>
+        </main>
+        <footer></footer>
+    </div>
+</body>
+</html>

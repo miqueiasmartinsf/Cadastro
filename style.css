@@ -1,0 +1,165 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+
+main{
+    position: relative;
+    width: 100%;
+    height: 100%;
+
+
+
+}
+
+header{
+    width: 100%;
+    height: 80px;
+    background-color: #FFBA00;
+    padding-top: 40px;
+    text-align: center;
+    box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.144);
+}
+
+
+.container{
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.093);
+    width: 80%;
+    height: 620px;
+    position: absolute;
+    left: 50%;
+    top: 400px;
+    transform: translate(-50%,-50%);
+    padding: 30px 40px;
+
+
+}
+
+
+#cadastro{
+    width: 150px;
+    height: 30px;
+    border: none;
+    background-color: rgb(0, 174, 255);
+    
+    color: white;
+}
+
+#cadastro:hover{
+    cursor: pointer;
+    background-color: #0088ff;
+    transition: 0.8s ;
+    
+}
+
+.tablediv{
+    width: 100%;
+    height: 550px;
+    background-color: white;
+    margin-top: 20px;
+    
+}
+
+table{
+    background-color: white;
+    width: 100%;
+    
+}
+
+table th{
+    background-color: #FFBA00;
+
+}
+
+table tr{
+    background-color: white;
+    height: 50px;
+    text-align: center;
+    font-size: 22px;
+}
+
+.modal{ 
+    height: 300px;
+    width: 650px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top: 400px;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 1;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.294);
+    display: none;
+    
+}
+
+.modal h1{
+    text-align: center;
+}
+
+.headermodal{
+    width: 100%;
+    height: 50px;
+    background-color: #FFBA00;
+    padding-top: 20px;
+    text-align: center;
+}
+
+
+.headermodal span{
+    width: 40px;
+    height: 32px;
+    background-color: #FFBA00;
+    display: block;
+    position: absolute;
+    top: 0px;
+    left: 94%;
+    color: white;
+    text-align: center;
+    padding-top: 8px;
+    cursor: pointer;
+}
+
+.headermodal span:hover{
+    background-color: #ff0000;
+    transition: 0.3s;
+}
+
+.mainmodal{
+    width: 100%;
+    height: 230px;
+    padding: 10px 20px;
+}
+
+.mainmodal input{
+    font-size: 20px;
+    height: 35px;
+    width: 250px;
+    margin-top: 30px;
+    margin-left: 30px;
+    
+}
+
+.mainmodal button{
+    color: white;
+    border: none;
+    width: 100px;
+    height: 40px;
+    
+}
+
+#cancel{
+    position: absolute;
+    top: 240px;
+    right: 60px;
+    background-color: red;
+    cursor: pointer;
+}
+
+#save{
+    position: absolute;
+    top: 240px;
+    right: 170px;
+    background-color: rgb(68, 255, 47);
+    cursor: pointer;
+}
